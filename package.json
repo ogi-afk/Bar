@@ -1,0 +1,21 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogi-afk/Bar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogi-afk/Bar/issues"
+  },
+  "homepage": "https://github.com/ogi-afk/Bar#readme"
+}

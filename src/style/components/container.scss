@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 100%;
+
+  @include media-from(768) {
+    max-width: 728px;
+  }
+
+  @include media-from(1024) {
+    max-width: 984px;
+  }
+
+  @include media-from(1440) {
+    max-width: 1290px;
+    padding: 0 75px;
+  }
+
+  @include media-from(1920) {
+    min-width: 1290px;
+    padding: 0 315px;
+  }
+}

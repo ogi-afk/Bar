@@ -1,0 +1,25 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$color-black-secondary: #0f1f2f;
+$color-black-tertiary: #243d55;
+$color-black-next-background: #020f1c;
+$color-black-light: #09090a;
+$color-grey: #c4c4c4;
+$color-pink-primary: #d6258f;
+$color-pink-secondary: #f32e7c;
+$color-pink-tertiary: #ff26c2;
+$color-pink-light: #fb37ff;
+
+:root {
+  --color-white: $color-white;
+  --color-black: $color-black;
+  --color-black-secondary: $color-black-secondary;
+  --color-black-tertiary: $color-black-tertiary;
+  --color-black-next-background: $color-black-next-background;
+  --color-black-light: $color-black-light;
+  --color-grey: $color-grey;
+  --color-pink-primary: $color-pink-primary;
+  --color-pink-secondary: $color-pink-secondary;
+  --color-pink-tertiary: $color-pink-tertiary;
+  --color-pink-light: $color-pink-light;
+}
