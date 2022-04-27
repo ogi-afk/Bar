@@ -1,0 +1,48 @@
+.advertising {
+  &__wrapper {
+    background-image: url(../img/advertising/img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 85px;
+
+    @include media-from(1024) {
+      padding-top: 145px;
+      padding-bottom: 146px;
+    }
+
+    @include media-from(1440) {
+      padding-top: 228px;
+      padding-bottom: 228px;
+    }
+  }
+
+  &__gallery {
+    background-image: url(../img/advertising/bg-gallery.png);
+    background-size: cover;
+    color: $color-white;
+    padding-top: 55px;
+    padding-bottom: 44px;
+
+    @include media-from(1024) {
+      padding-top: 70px;
+      padding-bottom: 63px;
+    }
+
+    @include media-from(1440) {
+      padding-top: 102px;
+      padding-bottom: 152px;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    @include media-from(1024) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+}

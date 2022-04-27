@@ -12,209 +12,213 @@ $font-size-h1-tablet: 70px;
 $font-size-h2-tablet: 36px;
 $font-size-h3-tablet-mobile: 18px;
 $font-size-h1-mobile: 36px;
+$font-size-h2-mobile: 34px;
 $font-size-h3-mobile: 20px;
 $font-size-text: 20px;
 $font-size-text-mobile: 16px;
-$font-size-text-mobile-secondary: 14px;
+$font-size-text-mobile-secondary: 12px;
 
 $line-height-h1: 113px;
-$line-height-h2: 76px;
+$line-height-h2: 75px;
 $line-height-h3: 28px;
 $line-height-subtitle: 57px;
-$line-height-subtitle-desktop:47px;
-$line-height-h1-tablet: 83px;
+$line-height-subtitle-desktop: 47px;
+$line-height-h1-tablet: 82px;
 $line-height-h2-tablet-mobile: 42px;
 $line-height-h3-tablet-mobile: 21px;
 $line-height-h3-mobile: 24px;
 $line-height-text: 23px;
 $line-height-text-mobile: 19px;
 $line-height-text-mobile-secondary: 16px;
-$line-height-text-button-mobile: 17px;
+$line-height-text-button-mobile: 15px;
+$line-height-title-footer-tablet: 56px;
 
+@mixin font-text-navigation {
+  font-size: $font-size-text-mobile-secondary;
+  line-height: $line-height-text-button-mobile;
 
-:root{
-  --font-size-h1:$font-size-h1;
-  --font-size-h2:$font-size-h2;
-  --font-size-h3:$font-size-h3;
-  --font-size-subtitle:$font-size-subtitle;
-  --font-size-subtitle-desktop-sm:$font-size-subtitle-desktop-sm;
-  --font-size-h1-tablet:$font-size-h1-tablet;
-  --font-size-h2-tablet:$font-size-h2-tablet;
-  --font-size-h3-tablet-mobile:$font-size-h3-tablet-mobile;
-  --font-size-h1-mobile:$font-size-h1-mobile;
-  --font-size-h3-mobile:$font-size-h3-mobile;
-  --font-size-text:$font-size-text;
-  --font-size-text-mobile:$font-size-text-mobile;
-  --font-size-text-mobile-secondary:$font-size-text-mobile-secondary:
-
-  --line-height-h1:$line-height-h1;
-  --line-height-h2:$line-height-h2;
-  --line-height-h3:$line-height-h3;
-  --line-height-subtitle:$line-height-subtitle;
-  --line-height-subtitle-desktop:$line-height-subtitle-desktop;
-  --line-height-h1-tablet:$line-height-h1-tablet;
-  --line-height-h2-tablet-mobile:$line-height-h2-tablet-mobile;
-  --line-height-h3-tablet-mobile:$line-height-h3-tablet-mobile;
-  --line-height-h3-mobile:$line-height-h3-mobile;
-  --line-height-text:$line-height-text;
-  --line-height-text-mobile:$line-height-text-mobile;
-  --line-height-text-mobile-secondary:$line-height-text-mobile-secondary;
-  --line-height-text-button-mobile:$line-height-text-button-mobile;
-}
-
-
-@mixin font-text-navigation{
-  font-size: var(--font-size-text-mobile-secondary);
-  line-height: var(--line-height-text-button-mobile);
-
-  @include media-from-to(425,767.9){
-    font-size:var(font-size-text-mobile) ;
-    line-height:var(line-height-text-mobile) ;
+  @include media-from(425) {
+    font-size: $font-size-text-mobile;
+    line-height: $line-height-text-mobile;
   }
 
-  @include media-from(768){
-    font-size: var(--font-size-text);
-    line-height: var(--line-height-h3-mobile);
+  @include media-from(768) {
+    font-size: $font-size-text;
+    line-height: $line-height-h3-mobile;
   }
 }
 
+@mixin font-heading-h1 {
+  font-size: $font-size-h1-mobile;
+  line-height: $line-height-h2-tablet-mobile;
+  color: $color-pink-primary;
+  -webkit-text-stroke: 1px $color-white;
+  text-shadow: 0 0 9px $color-pink-light;
+  text-shadow: 0 0 9px $color-pink-primary;
+  text-shadow: 0 6px 9px $color-pink-tertiary;
 
-@mixin font-heading-h1{
-  font-size: var(--font-size-h1-mobile);
-  line-height: var(--line-height-h2-tablet-mobile);
+  @include media-from(768) {
+    font-size: $font-size-h1-tablet;
+    line-height: $line-height-h1-tablet;
+  }
+  @include media-from(1024) {
+    font-size: $font-size-h1;
+    line-height: $line-height-h1;
+  }
+}
+
+@mixin font-subtitle {
+  font-size: $font-size-h3;
+  line-height: $line-height-h3;
+
+  @include media-from(768) {
+    font-size: $font-size-h2-tablet;
+    line-height: $line-height-h2-tablet-mobile;
+  }
 
   @include media-from(1024) {
-    font-size: var(--font-size-h1);
-    line-height: var(--line-height-h1);
-
+    font-size: $font-size-subtitle-desktop-sm;
+    line-height: $line-height-subtitle-desktop;
   }
 
-  @include media-from-to(768, 1023.99) {
-    font-size: var(--font-size-h1-tablet);
-    line-height: var(--line-height-h1-tablet);
-  }
-
-}
-
-@mixin font-subtitle{
-  font-size: var(--font-size-h3);
-  line-height: var(--line-height-h3);
-
-
-  @include media-from-to(768,1023.9){
-    font-size: var(--font-size-h2-tablet);
-    line-height: var(--line-height-h2-tablet-mobile);
-  }
-
-  @include media-from-to(1024,1439.9){
-    font-size: var(--font-size-subtitle-desktop-sm);
-    line-height: var(--line-height-subtitle-desktop);
-  }
-
-  @include media-from(1440){
-    font-size: var(--font-size-subtitle);
-    line-height: var(--line-height-subtitle);
-
+  @include media-from(1440) {
+    font-size: $font-size-subtitle;
+    line-height: $line-height-subtitle;
   }
 }
 
-@mixin font-heading-h2{
-  font-size: var(--font-size-h1-mobile);
-  line-height: var($line-height-h2-tablet-mobile);
+@mixin font-heading-h2 {
+  font-size: $font-size-h1-mobile;
+  line-height: $line-height-h2-tablet-mobile;
+  color: $color-pink-primary;
+  -webkit-text-stroke: 1px $color-white;
+  text-shadow: 0 0 9px $color-pink-light;
+  text-shadow: 0 0 9px $color-pink-primary;
+  text-shadow: 0 6px 9px $color-pink-tertiary;
 
   @include media-from(1024) {
-    font-size: var(--font-size-h2);
-    line-height: var(--line-height-h2);
-
-  }
-
-}
-
-@mixin font-base-text{
-  font-size: var(--font-size-text-mobile-secondary) ;
-  line-height:var(--line-height-text-mobile-secondary) ;
-
-
-  @include media-from-to (425,767.9){
-    font-size: var(--font-size-text-mobile) ;
-    line-height:var(--line-height-text-mobile) ;
-  }
-
-  @include media-from-to (768,1439.9){
-    font-size: var(--font-size-h3-tablet-mobile) ;
-    line-height:var(--line-height-h3-tablet-mobile) ;
-  }
-
-  @include media-from (1440){
-    font-size: var(--font-size-text);
-    line-height: var(--line-height-h3-mobile);
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
   }
 }
 
+@mixin font-heading-h2-menu {
+  font-size: $font-size-h2-mobile;
+  line-height: $line-height-h2-tablet-mobile;
+  -webkit-text-stroke: 1px $color-white;
+  text-shadow: 0 0 9px $color-pink-light;
+  text-shadow: 0 0 9px $color-pink-primary;
+  text-shadow: 0 6px 9px $color-pink-tertiary;
 
-@mixin font-heading-h3{
-font-size: var(--font-size-h3-mobile);
-line-height: var(line-height-h3-mobile);
-
-  @include media-from(768){
-    font-size: var(--font-size-h3);
-    line-height: var(--line-height-h3);
+  @include media-from(1024) {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
   }
 }
 
+@mixin font-base-text {
+  font-size: $font-size-text-mobile-secondary;
+  line-height: $line-height-text-mobile-secondary;
 
-@mixin font-text-menu{
-  font-size:(--font-size-text-mobile-secondary) ;
-  line-height:(--line-height-text-mobile-secondary) ;
-
-  @include media-from-to(768,1023.9){
-    font-size: var(--font-size-text-mobile);
-    line-height: var(--line-height-text-mobile);
+  @include media-from(425) {
+    font-size: $font-size-text-mobile;
+    line-height: $line-height-text-mobile;
   }
 
-  @include media-from(1024){
-    font-size: var(font-size-h3-tablet-mobile);
-    line-height: var(line-height-h3-tablet-mobile);
+  @include media-from(768) {
+    font-size: $font-size-h3-tablet-mobile;
+    line-height: $line-height-h3-tablet-mobile;
   }
 
-}
-
-@mixin font-text-secondary{
-  font-size: var(--font-size-text-mobile-secondary);
-  line-height: var(--line-height-text-button-mobile);
-
-  @include media-from-to(425,767.9){
-  font-size:var(--font-size-h3-tablet-mobile);
-  line-height: var(--line-height-h3-tablet-mobile);
-  }
-  @include media-from(768){
-    font-size: var(--font-size-h3);
-    line-height: var(--line-height-h3);
+  @include media-from(1440) {
+    font-size: $font-size-text;
+    line-height: $line-height-h3-mobile;
   }
 }
 
-@mixin font-text-h2-secondary{
-  font-size: var(--font-size-h1-mobile);
-  line-height: var(--line-height-h2-tablet-mobile);
+@mixin font-heading-h3 {
+  font-size: $font-size-h3-mobile;
+  line-height: $line-height-h3-mobile;
 
-  @include media-from(1024){
-    font-size: var(--font-size-subtitle);
-    line-height: var(--line-height-subtitle);
+  @include media-from(768) {
+    font-size: $font-size-h3;
+    line-height: $line-height-h3;
   }
 }
 
+@mixin font-text-menu {
+  font-size: $font-size-text-mobile-secondary;
+  line-height: $line-height-text-mobile-secondary;
 
-@mixin font-text-footer{
-  font-size: var(--font-size-text-mobile);
-  line-height: var(--line-height-text-mobile);
-
-  @include media-from-to(425,767.9){
-    font-size: var(--font-size-h3-tablet-mobile);
-    line-height: var(--line-height-h3-tablet-mobile);
+  @include media-from(768) {
+    font-size: $font-size-text-mobile;
+    line-height: $line-height-text-mobile;
   }
 
-  @include media-from(768){
-    font-size: var(--font-size-h3);
-    line-height: var(--line-height-h3);
+  @include media-from(1024) {
+    font-size: $font-size-h3-tablet-mobile;
+    line-height: $line-height-h3-tablet-mobile;
+  }
+}
+@mixin font-title-menu {
+  font-size: $font-size-h3-tablet-mobile;
+  line-height: $line-height-h3-tablet-mobile;
+
+  @include media-from(768) {
+    font-size: $font-size-text;
+    line-height: $line-height-text;
+  }
+  @include media-from(1024) {
+    font-size: $font-size-h3;
+    line-height: $line-height-h3;
+  }
+}
+
+@mixin font-text-secondary {
+  font-size: $font-size-text-mobile-secondary;
+  line-height: $line-height-text-button-mobile;
+
+  @include media-from(425) {
+    font-size: $font-size-h3-tablet-mobile;
+    line-height: $line-height-h3-tablet-mobile;
+  }
+  @include media-from(768) {
+    font-size: $font-size-h3;
+    line-height: $line-height-h3;
+  }
+}
+
+@mixin font-text-h2-secondary {
+  font-size: $font-size-h1-mobile;
+  line-height: $line-height-h2-tablet-mobile;
+
+  @include media-from(1024) {
+    font-size: $font-size-subtitle;
+    line-height: $line-height-subtitle;
+  }
+}
+
+@mixin font-text-footer {
+  font-size: $font-size-text-mobile;
+  line-height: $line-height-text-mobile;
+
+  @include media-from(425) {
+    font-size: $font-size-h3-tablet-mobile;
+    line-height: $line-height-h3-tablet-mobile;
+  }
+
+  @include media-from(768) {
+    font-size: $font-size-h3;
+    line-height: $line-height-h3;
+  }
+}
+
+@mixin font-title-footer {
+  font-size: $font-size-h1-mobile;
+  line-height: $line-height-h2-tablet-mobile;
+
+  @include media-from(1024) {
+    font-size: $font-size-subtitle;
+    line-height: $line-height-title-footer-tablet;
   }
 }

@@ -1,0 +1,47 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color-black-light;
+  color: $color-white;
+
+  @include media-from(1920) {
+    padding-bottom: 10px;
+  }
+
+  &__navigation {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    @include font-text-navigation;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    @include media-from(1024) {
+      gap: 60px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    @include media-from(768) {
+      flex-direction: row;
+      gap: 30px;
+    }
+  }
+
+  &__logo {
+    width: 60px;
+    height: 60px;
+
+    @include media-from(1920) {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

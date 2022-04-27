@@ -4,7 +4,7 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel src/index.html ",
     "build": "parcel build"
   },
   "repository": {
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/ogi-afk/Bar/issues"
   },
-  "homepage": "https://github.com/ogi-afk/Bar#readme"
+  "homepage": "https://github.com/ogi-afk/Bar#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0"
+  }
 }

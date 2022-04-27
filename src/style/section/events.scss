@@ -1,0 +1,72 @@
+.events {
+  background-color: $color-black;
+  color: $color-white;
+  padding-top: 61px;
+  padding-bottom: 33px;
+  position: relative;
+
+  @include media-from(1024) {
+    padding-bottom: 60px;
+  }
+  @include media-from(1440) {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  &__arrow {
+    display: none;
+
+    @include media-from(1440) {
+      display: block;
+      position: absolute;
+      top: 80px;
+      left: 180px;
+    }
+
+    @include media-from(1600) {
+      left: 270px;
+    }
+    @include media-from(1750) {
+      left: 350px;
+    }
+
+    @include media-from(1920) {
+      display: block;
+      top: 220px;
+      left: 20px;
+    }
+  }
+
+  &__list {
+    @include media-from(768) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 27px;
+    }
+    @include media-from(1024) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 19px;
+    }
+  }
+
+  &__card {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+
+    &:nth-child(3) {
+      @include media-up-to(1023.9) {
+        display: none;
+      }
+    }
+  }
+
+  &__img {
+    border-radius: 20px 20px 0 0;
+  }
+  &__headline {
+    padding: 20px 10px 72px 10px;
+    background-color: $color-black-secondary;
+  }
+}

@@ -5,11 +5,214 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
-
+  <header class="header ">
+    <nav class="header__navigation container">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="/" class="header__link">Барное меню</a>
+        </li>
+        <li class="header__item">
+          <a href="/" class="header__link">Меню Алкошок</a>
+        </li>
+      </ul>
+      <a href="/" aria-label="to home page">
+        <img src="img/logo-header.png" width="80" height="80" alt="logotype" class="header__logo">
+      </a>
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="/" class="header__link">Контакты</a>
+        </li>
+        <li class="header__item">
+          <a href="/" class="header__link">California diner</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="info">
+      <div class="wrapper container">
+        <div class="headline info__headline ">
+          <h1 class="headline__title ">California bar</h1>
+          <p class="headline__subtitle">
+            Лучший <span class="headline__accent">концертный бар</span> на  Арбате
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="events">
+      <div class="events__wrap container">
+        <div class="headline headline--title-bg">
+          <h2 class="headline--title-bg">Ближайшие мероприятия</h2>
+        </div>
+        <picture>
+          <source srcset="img/events/arrow-right.png" media="(min-width: 1920px)">
+          <img class="events__arrow" class="about__img" src="img/events/arrow.png" alt="">
+        </picture>
+        <ul class="events__list">
+          <li class="events__card">
+            <img src="img/events/card-1.png" alt="" class="events__img">
+            <div class="events__headline headline--card">
+              <h3 class="headline--card__title">Мотологические вечера</h3>
+              <p class="headline--card__subtitle">29.04.20</p>
+              <p class="headline--card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </li>
+          <li class="events__card">
+            <img src="img/events/card-2.png" alt="" class="events__img">
+            <div class="events__headline headline--card">
+              <h3 class="headline--card__title">Мотологические вечера</h3>
+              <p class="headline--card__subtitle">29.04.20</p>
+              <p class="headline--card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </li>
+          <li class="events__card">
+            <img src="img/events/card-1.png" alt="" class="events__img">
+            <div class="events__headline headline--card">
+              <h3 class="headline--card__title">Мотологические вечера</h3>
+              <p class="headline--card__subtitle">29.04.20</p>
+              <p class="headline--card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="menu">
+      <div class="menu__wrap container">
+        <div class="headline headline--menu">
+          <h2 class="headline--menu__title">новинки бара</h2>
+        </div>
+        <div class="menu__wrapper">
+          <div class="menu__star">
+            <img src="img/star.png" alt="" class="menu__img-star">
+            <img src="img/coctail.jpg" alt="" class="menu__foto">
+          </div>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <div class="menu__headline headline--item-menu">
+                <div class="menu__container">
+                  <h3 class="headline--item-menu__title">Джин-тоник </h3>
+                  <p class="headline--item-menu__text">360 ₽</p>
+                </div>
+                <p class="headline--item-menu__subtitle">Джин, тоник, лимон, лёд. 250 мл.</p>
+              </div>
+            </li>
+            <li class="menu__item">
+              <div class="menu__headline headline--item-menu">
+                <div class="menu__container">
+                  <h3 class="headline--item-menu__title">Отвертка </h3>
+                  <p class="headline--item-menu__text">340 ₽</p>
+                </div>
+                <p class="headline--item-menu__subtitle">Водка, апельсиновый сок, апельсин, лёд. 250 мл.</p>
+              </div>
+            </li>
+            <li class="menu__item">
+              <div class="menu__headline headline--item-menu">
+                <div class="menu__container">
+                  <h3 class="headline--item-menu__title">Джим бим эппл тоник </h3>
+                  <p class="headline--item-menu__text">360 ₽</p>
+                </div>
+                <p class="headline--item-menu__subtitle">Джим бим эпл, тоник, яблоко, лёд. 250 мл.</p>
+              </div>
+            </li>
+            <li class="menu__item">
+              <div class="menu__headline headline--item-menu">
+                <div class="menu__container">
+                  <h3 class="headline--item-menu__title">Раша тудей</h3>
+                  <p class="headline--item-menu__text">350 ₽</p>
+                </div>
+                <p class="headline--item-menu__subtitle menu__subtitle">Финляндия Водка, ликёр дыня, ликер банан,
+                  яблочный сок,
+                  коктейльная
+                  вишня, лёд. 250мл.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button class="menu__button">Посмотреть барное меню целиком</button>
+        <p class="menu__text">Меню АЛКОШОК</p>
+      </div>
+    </section>
+    <section class="advertising">
+      <div class="advertising__wrapper">
+        <div class="headline headline--advertising container">
+          <h2 class="headline__title headline--advertising__title">Дискотека</h2>
+          <p class="headline__subtitle headline--advertising__subtitle">Каждую пятницу и субботу</p>
+        </div>
+      </div>
+      <div class="advertising__gallery">
+        <div class="container">
+          <div class="headline headline--gallery">
+            <h2 class="headline__gallery--title">ГАЛЕРЕЯ</h2>
+          </div>
+          <ul class="advertising__list">
+            <li class="advertising__card">
+              <img src="img/advertising/1.png" alt="" class="advertising__foto">
+            </li>
+            <li class="advertising__card">
+              <img src="img/advertising/2.png" alt="" class="advertising__foto">
+            </li>
+            <li class="advertising__card">
+              <img src="img/advertising/3.png" alt="" class="advertising__foto">
+            </li>
+            <li class="advertising__card">
+              <img src="img/advertising/4.png" alt="" class="advertising__foto">
+            </li>
+            <li class="advertising__card">
+              <img src="img/advertising/5.png" alt="" class="advertising__foto">
+            </li>
+            <li class="advertising__card">
+              <img src="img/advertising/6.png" alt="" class="advertising__foto">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <img src="img/footer/maps.png" class="footer__maps" alt="">
+      <div class="container">
+        <div class="headline--footer">
+          <h2 class="headline--footer__title">California Bar</h2>
+          <p class="headline--footer__text footer__text">
+            <span> ул. Арбат, 23, стр. 1 </span> <br>
+            <span> + 7(499) 579-80-04 </span> <br>
+            <span> Работаем
+              круглосуточно</span>
+          </p>
+        </div>
+      </div>
+      <div class="footer__wrap">
+        <ul class="footer__list container">
+          <li class="footer__card">
+            <a href="#" class="footer__link">
+              <img src="img/footer/vk.png" alt="" class="footer__img">
+            </a>
+          </li>
+          <li class="footer__card">
+            <a href="#" class="footer__link">
+              <img src="img/footer/insta.png" alt="" class="footer__img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </main>
 </body>
 
 </html>
