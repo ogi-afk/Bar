@@ -1,130 +1,77 @@
 .headline {
+  text-align: center;
   &__title {
-    @include font-heading-h1;
+    &--h1 {
+      @include font-heading-h1;
 
-    @include media-from(768) {
+      @include media-from(768) {
+        text-transform: uppercase;
+        text-align: left;
+      }
+    }
+
+    &--h2 {
+      @include font-heading-h2;
+
+      color: $color-pink-primary;
       text-transform: uppercase;
     }
-  }
 
-  &__subtitle {
-    @include font-subtitle;
-
-    margin: 20px 25px 0 7px;
-  }
-
-  &__accent {
-    color: $color-pink-primary;
-  }
-
-  &--title-bg {
-    @include font-heading-h2;
-
-    color: $color-pink-primary;
-    text-transform: uppercase;
-    text-align: center;
-
-    @include media-from(1440) {
-      margin-left: 70px;
-    }
-
-    @include media-from(1920) {
-      margin-left: 110px;
-      margin-bottom: 30px;
-    }
-  }
-
-  &--card {
-    &__title {
+    &--h3 {
       @include font-heading-h3;
       color: $color-pink-primary;
       text-align: center;
-      margin-bottom: 10px;
     }
 
-    &__subtitle {
+    &--h4 {
+      @include font-title-menu;
+
+      color: $color-pink-primary;
+    }
+
+    &--h2-no-light {
+      @include font-subtitle-no-light;
+      color: $color-pink-primary;
+      text-align: center;
+    }
+
+    &--h2-no-light-sm {
+      @include font-title-footer;
+      color: $color-pink-primary;
+    }
+  }
+  &__subtitle {
+    &--bg {
+      @include font-subtitle;
+
+      @include media-from(768) {
+        text-align: left;
+      }
+    }
+
+    &--md {
       @include font-text-footer;
+
       text-align: end;
       color: $color-black-tertiary;
-      margin-bottom: 20px;
     }
 
-    &__text {
-      @include font-base-text;
-      text-align: center;
-    }
-  }
-
-  &--menu {
-    &__title {
-      @include font-heading-h2-menu;
-      color: $color-pink-primary;
-      text-transform: uppercase;
-      text-align: center;
-    }
-  }
-
-  &--item-menu {
-    &__title {
+    &--sm {
       @include font-title-menu;
 
       color: $color-pink-primary;
     }
-    &__text {
-      @include font-title-menu;
 
-      color: $color-pink-primary;
-    }
-    &__subtitle {
-      @include font-text-menu;
-    }
-  }
-
-  &--advertising {
-    &__title {
-      @include font-heading-h2;
-      color: $color-pink-primary;
-      text-align: center;
-    }
-
-    &__subtitle {
+    &--lg {
       @include font-subtitle;
       color: $color-white;
       text-align: center;
     }
   }
 
-  &--gallery {
-    @include font-heading-h2;
-    color: $color-pink-primary;
-    text-align: center;
-    margin-bottom: 25px;
-
-    @include media-from(1024) {
-      margin-bottom: 35px;
-    }
-    @include media-from(1440) {
-      margin-bottom: 61px;
-    }
-  }
-
-  &--footer {
-    text-align: center;
-    &__title {
-      @include font-title-footer;
+  &__accent {
+    &--pink {
       color: $color-pink-primary;
-      margin-top: 50px;
-      margin-bottom: 20px;
-
-      @include media-from(425) {
-        margin-bottom: 30px;
-      }
-    }
-
-    &__text {
-      @include font-text-footer;
-      color: $color-white;
-      margin-bottom: 30px;
     }
   }
 }

@@ -1,12 +1,18 @@
 .menu {
-  background-color: $color-black-light;
+  background-color: $color-black-next-background;
   color: $color-white;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 34px;
+
+  @include media-from(1024) {
+    padding-top: 48px;
+  }
 
   @include media-from(1440) {
-    padding-top: 48px;
     padding-bottom: 65px;
+  }
+  @include media-from(1920) {
+    padding-bottom: 146px;
   }
 
   &__wrap {
@@ -35,8 +41,12 @@
       display: block;
       position: absolute;
       top: -40px;
-      right: 0;
+      right: -10px;
       z-index: 1;
+    }
+
+    @include media-from(1920) {
+      top: -80px;
     }
   }
 
@@ -47,49 +57,83 @@
     margin-top: 40px;
     margin-bottom: 36px;
     z-index: 2;
+    width: 282px;
+    height: 200px;
+
+    @include media-from(425) {
+      width: 385px;
+      height: 300px;
+    }
 
     @include media-from(768) {
-      max-width: 500px;
-      max-height: 350px;
+      width: 500px;
+      height: 350px;
       margin-top: 90px;
+      margin-bottom: 50px;
     }
 
     @include media-from(1024) {
-      max-width: 320px;
-      max-height: 340px;
+      width: 320px;
+      height: 340px;
+      margin-top: 120px;
+      order: 1;
+    }
+
+    @include media-from(1440) {
+      width: 520px;
+      height: 426px;
       margin-top: 120px;
       order: 1;
     }
   }
 
   &__list {
+    @include media-from(768) {
+      padding-left: 52px;
+      padding-right: 68px;
+    }
+
     @include media-from(1024) {
       margin-top: 112px;
+      margin-bottom: 123px;
       order: -1;
+      flex-grow: 1;
+      padding-left: 0px;
+      padding-right: 0px;
     }
 
     @include media-from(1440) {
       margin-top: 136px;
+      margin-bottom: 52px;
     }
-  }
-
-  &__container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
   }
 
   &__headline {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    @include font-text-menu;
+
+    max-width: 170px;
+
+    @include media-from(1024) {
+      max-width: 300px;
+    }
+
+    @include media-from(1440) {
+      margin-bottom: 30px;
+    }
   }
 
   &__button {
     @include font-text-secondary;
-    background-color: $color-black-light;
+    background-color: $color-black-next-background;
     border: 2px solid $color-pink-primary;
     box-sizing: border-box;
     border-radius: 20px;
-    margin-top: 50px;
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -102,11 +146,18 @@
     @include media-from(1024) {
       padding-top: 20px;
       padding-bottom: 20px;
+      margin-bottom: 30px;
     }
   }
 
-  &__text {
+  &__link {
+    @include font-text-secondary;
+
     text-align: center;
     text-decoration: underline;
+
+    @include media-from(1024) {
+      margin-bottom: 59px;
+    }
   }
 }

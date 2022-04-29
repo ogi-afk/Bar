@@ -6,16 +6,19 @@
   text-align: center;
   color: $color-white;
 
+  @include media-from(425) {
+    padding: 90px 0 72px 0;
+  }
+
   @include media-from(768) {
-    padding: 100px 0 90px 0;
-    text-align: start;
+    padding: 71px 0 90px 0;
 
     &::before {
       content: "";
       position: absolute;
       top: 0;
       left: 0;
-      width: 65%;
+      width: 54%;
       height: 100%;
       background: linear-gradient(
         141.38deg,
@@ -31,7 +34,7 @@
     }
 
     @include media-from(1920) {
-      padding: 296px 0 300px 0;
+      padding: 296px 0 302px 0;
     }
   }
 
@@ -43,11 +46,15 @@
       max-width: 390px;
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 42px;
     }
 
     @include media-from(1024) {
       max-width: 480px;
+    }
+
+    @include media-from(1920) {
+      gap: 58px;
     }
   }
 }

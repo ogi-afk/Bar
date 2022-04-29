@@ -5,15 +5,15 @@
   max-width: 100%;
 
   @include media-from(768) {
-    max-width: 728px;
+    max-width: 768px;
   }
 
   @include media-from(1024) {
-    max-width: 984px;
+    max-width: 1024px;
   }
 
   @include media-from(1440) {
-    max-width: 1290px;
+    max-width: 1440px;
     padding: 0 75px;
   }
 

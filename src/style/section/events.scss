@@ -5,7 +5,20 @@
   padding-bottom: 33px;
   position: relative;
 
+  @include media-from(425) {
+    padding-top: 43px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  @include media-from(768) {
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   @include media-from(1024) {
+    padding-top: 90px;
     padding-bottom: 60px;
   }
   @include media-from(1440) {
@@ -19,7 +32,7 @@
     @include media-from(1440) {
       display: block;
       position: absolute;
-      top: 80px;
+      top: 120px;
       left: 180px;
     }
 
@@ -33,11 +46,34 @@
     @include media-from(1920) {
       display: block;
       top: 220px;
-      left: 20px;
+      left: 5px;
+    }
+  }
+
+  &__title {
+    @include media-from(425) {
+      margin-bottom: 74px;
+    }
+    @include media-from(768) {
+      margin-left: 70px;
+      margin-bottom: 60px;
+    }
+
+    @include media-from(1024) {
+      margin-left: 75px;
+      margin-bottom: 71px;
+    }
+
+    @include media-from(1440) {
+      margin-left: 130px;
     }
   }
 
   &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+
     @include media-from(768) {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -51,9 +87,10 @@
   }
 
   &__card {
-    margin-top: 33px;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
+    background-color: $color-black-secondary;
 
     &:nth-child(3) {
       @include media-up-to(1023.9) {
@@ -63,10 +100,22 @@
   }
 
   &__img {
-    border-radius: 20px 20px 0 0;
+    min-width: 280px;
+    min-height: 315px;
+    object-fit: cover;
   }
+
   &__headline {
+    margin-top: 20px;
+  }
+
+  &__text {
     padding: 20px 10px 72px 10px;
-    background-color: $color-black-secondary;
+    @include font-base-text;
+    text-align: center;
+
+    @include media-from(425) {
+      text-align: left;
+    }
   }
 }

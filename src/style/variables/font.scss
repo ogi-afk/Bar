@@ -16,14 +16,14 @@ $font-size-h2-mobile: 34px;
 $font-size-h3-mobile: 20px;
 $font-size-text: 20px;
 $font-size-text-mobile: 16px;
-$font-size-text-mobile-secondary: 12px;
+$font-size-text-mobile-secondary: 14px;
 
-$line-height-h1: 113px;
+$line-height-h1: 103px;
 $line-height-h2: 75px;
 $line-height-h3: 28px;
 $line-height-subtitle: 57px;
 $line-height-subtitle-desktop: 47px;
-$line-height-h1-tablet: 82px;
+$line-height-h1-tablet: 80px;
 $line-height-h2-tablet-mobile: 42px;
 $line-height-h3-tablet-mobile: 21px;
 $line-height-h3-mobile: 24px;
@@ -52,7 +52,7 @@ $line-height-title-footer-tablet: 56px;
   font-size: $font-size-h1-mobile;
   line-height: $line-height-h2-tablet-mobile;
   color: $color-pink-primary;
-  -webkit-text-stroke: 1px $color-white;
+  -webkit-text-stroke: 0.1px $color-white;
   text-shadow: 0 0 9px $color-pink-light;
   text-shadow: 0 0 9px $color-pink-primary;
   text-shadow: 0 6px 9px $color-pink-tertiary;
@@ -87,11 +87,22 @@ $line-height-title-footer-tablet: 56px;
   }
 }
 
+@mixin font-subtitle-no-light {
+  font-size: $font-size-h1-mobile;
+  line-height: $line-height-h2-tablet-mobile;
+  color: $color-pink-primary;
+
+  @include media-from(1024) {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+  }
+}
+
 @mixin font-heading-h2 {
   font-size: $font-size-h1-mobile;
   line-height: $line-height-h2-tablet-mobile;
   color: $color-pink-primary;
-  -webkit-text-stroke: 1px $color-white;
+  -webkit-text-stroke: 0.1px $color-white;
   text-shadow: 0 0 9px $color-pink-light;
   text-shadow: 0 0 9px $color-pink-primary;
   text-shadow: 0 6px 9px $color-pink-tertiary;
@@ -103,16 +114,16 @@ $line-height-title-footer-tablet: 56px;
 }
 
 @mixin font-heading-h2-menu {
-  font-size: $font-size-h2-mobile;
+  font-size: 32px;
   line-height: $line-height-h2-tablet-mobile;
-  -webkit-text-stroke: 1px $color-white;
+  -webkit-text-stroke: 0.1px $color-white;
   text-shadow: 0 0 9px $color-pink-light;
   text-shadow: 0 0 9px $color-pink-primary;
   text-shadow: 0 6px 9px $color-pink-tertiary;
 
   @include media-from(1024) {
-    font-size: $font-size-h2;
-    line-height: $line-height-h2;
+    font-size: 64px;
+    line-height: 75px;
   }
 }
 

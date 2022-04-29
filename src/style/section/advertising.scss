@@ -6,6 +6,11 @@
     padding-top: 80px;
     padding-bottom: 85px;
 
+    @include media-from(425) {
+      padding-top: 105px;
+      padding-bottom: 105px;
+    }
+
     @include media-from(1024) {
       padding-top: 145px;
       padding-bottom: 146px;
@@ -14,6 +19,14 @@
     @include media-from(1440) {
       padding-top: 228px;
       padding-bottom: 228px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 11px;
+
+    @include media-from(1440) {
+      margin-bottom: 36px;
     }
   }
 
@@ -35,6 +48,17 @@
     }
   }
 
+  &__headline {
+    margin-bottom: 25px;
+
+    @include media-from(768) {
+      margin-bottom: 30px;
+    }
+    @include media-from(1440) {
+      margin-bottom: 61px;
+    }
+  }
+
   &__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -44,5 +68,9 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
     }
+  }
+
+  &__foto {
+    border-radius: 20px;
   }
 }

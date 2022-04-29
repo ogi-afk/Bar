@@ -1,8 +1,14 @@
 .footer {
   background-color: $color-black;
+  color: $color-white;
   padding-bottom: 50px;
+  padding-top: 50px;
+
+  @include media-from(425) {
+    padding-top: 0;
+  }
   &__maps {
-    height: 250px;
+    min-height: 248px;
     object-fit: cover;
 
     @include media-from(425) {
@@ -22,6 +28,35 @@
     }
   }
 
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    @include media-from(425) {
+      margin-bottom: 30px;
+    }
+
+    @include media-from(768) {
+      margin-top: 50px;
+    }
+  }
+
+  &__address,
+  &__number,
+  &__text {
+    @include font-text-footer;
+    font-style: normal;
+  }
+
   &__wrap {
     &::before {
       content: "";
@@ -30,18 +65,13 @@
       height: 2px;
       background-color: $color-white;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 6px 6px #e1078b;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   }
 
   &__list {
     display: flex;
     justify-content: center;
-    gap: 20px;
-  }
-
-  &__text {
-    display: flex;
-    flex-direction: column;
+    gap: 15px;
   }
 }
