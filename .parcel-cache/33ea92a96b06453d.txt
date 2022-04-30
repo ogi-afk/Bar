@@ -13,7 +13,7 @@
 44C:\edu\2022\Bar\node_modules\nan\doc\json.md132951039399180000 0
 65C:\edu\2022\Bar\node_modules\htmlnano\lib\modules\mergeScripts.js132951040178630000 0
 46C:\edu\2022\Bar\node_modules\parcel\src\cli.js132951041870340000 0
-35C:\edu\2022\Bar\dist\4.ace810fe.png132957174932412298 0
+35C:\edu\2022\Bar\dist\4.ace810fe.png132957976399277301 0
 41C:\edu\2022\Bar\node_modules\lmdb\open.js132951039398780000 0
 41C:\edu\2022\Bar\src\img\advertising\4.png132953852865922529 0
 60C:\edu\2022\Bar\node_modules\css-select\lib\pseudo-selectors132951045958788727 1
@@ -38,7 +38,7 @@
 47C:\edu\2022\Bar\node_modules\nan\doc\methods.md132951039399180000 0
 67C:\edu\2022\Bar\node_modules\svgo\plugins\convertEllipseToCircle.js132951040185650000 0
 75C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\intl-pluralrules.js132951040374650000 0
-20C:\edu\2022\Bar\dist132957267326350394 1
+20C:\edu\2022\Bar\dist132957984785776962 1
 53C:\edu\2022\Bar\node_modules\css-tree\data\patch.json132951041539790000 0
 74C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\offscreencanvas.js132951040374650000 0
 46C:\edu\2022\Bar\src\style\variables\index.scss132950868100124239 0
@@ -65,7 +65,7 @@
 86C:\edu\2022\Bar\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest3.c132951039398780000 0
 37C:\edu\2022\Bar\node_modules\entities132951045953615914 1
 49C:\edu\2022\Bar\node_modules\svgo\lib\svgo\coa.js132951040185650000 0
-50C:\edu\2022\Bar\src\style\components\headline.scss132957215067416762 0
+50C:\edu\2022\Bar\src\style\components\headline.scss132957985131432097 0
 41C:\edu\2022\Bar\node_modules\css-what\lib132951045950753569 1
 25C:\edu\2022\Bar\README.md132950868100063402 0
 79C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\document-execcommand.js132951040374650000 0
@@ -81,10 +81,10 @@
 23C:\edu\2022\Bar\src\img132954592150409556 1
 46C:\edu\2022\Bar\node_modules\get-port\index.js132951039736000000 0
 46C:\edu\2022\Bar\src\img\events\arrow-right.png132954652725450372 0
-30C:\edu\2022\Bar\src\index.html132957222745853394 0
+30C:\edu\2022\Bar\src\index.html132957969732006635 0
 63C:\edu\2022\Bar\node_modules\@parcel\core\test\fixtures\context132951045962045847 1
 49C:\edu\2022\Bar\node_modules\json5\dist\index.mjs132951039540820000 0
-43C:\edu\2022\Bar\src\style\section\menu.scss132957259191062455 0
+43C:\edu\2022\Bar\src\style\section\menu.scss132957985186537436 0
 55C:\edu\2022\Bar\node_modules\@parcel\optimizer-svgo\lib132951045955201696 1
 36C:\edu\2022\Bar\src\style\components132952164632287833 1
 25C:\edu\2022\Bar\src\style132952169588218957 1
@@ -132,7 +132,7 @@
 73C:\edu\2022\Bar\node_modules\@swc\helpers\lib\_class_private_field_get.js132951040465090000 0
 69C:\edu\2022\Bar\node_modules\type-fest\source\conditional-except.d.ts132951041707820000 0
 43C:\edu\2022\Bar\node_modules\source-map\lib132951045957187222 1
-45C:\edu\2022\Bar\src\style\variables\font.scss132957219319163887 0
+45C:\edu\2022\Bar\src\style\variables\font.scss132957985163563205 0
 52C:\edu\2022\Bar\src\img\pixel perfect\main (425).png132957179174411761 0
 96C:\edu\2022\Bar\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages132951045966288582 0
 60C:\edu\2022\Bar\node_modules\caniuse-lite\data\regions\BY.js132951040374650000 0
@@ -140,7 +140,7 @@
 50C:\edu\2022\Bar\src\style\section\advertising.scss132957261157099444 0
 62C:\edu\2022\Bar\node_modules\@parcel\workers\lib\WorkerFarm.js132951039501600000 0
 49C:\edu\2022\Bar\node_modules\ordered-binary\tests132951045957227144 1
-45C:\edu\2022\Bar\src\style\section\events.scss132957236542789180 0
+45C:\edu\2022\Bar\src\style\section\events.scss132957968412074664 0
 42C:\edu\2022\Bar\node_modules\node-releases132951045954343963 1
 33C:\edu\2022\Bar\node_modules\.bin132951045966807211 1
 67C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\bloburls.js132951040374650000 0
@@ -156,7 +156,7 @@
 73C:\edu\2022\Bar\node_modules\terser\node_modules\source-map\lib\base64.js132951041599350000 0
 73C:\edu\2022\Bar\node_modules\@parcel\transformer-html\src\dependencies.js132951040157600000 0
 57C:\edu\2022\Bar\node_modules\node-gyp-build\build-test.js132951039392100000 0
-43C:\edu\2022\Bar\src\style\section\info.scss132957226967635819 0
+43C:\edu\2022\Bar\src\style\section\info.scss132957962281948962 0
 65C:\edu\2022\Bar\node_modules\@parcel\core\node_modules\.bin\json5132951045964443513 0
 44C:\edu\2022\Bar\node_modules\is-glob\LICENSE132951039351240000 0
 47C:\edu\2022\Bar\node_modules\timsort\LICENSE.md132951041501450000 0
@@ -235,7 +235,7 @@
 45C:\edu\2022\Bar\node_modules\terser\README.md132951040348650000 0
 58C:\edu\2022\Bar\node_modules\domhandler\lib\index.d.ts.map132951041715570000 0
 73C:\edu\2022\Bar\node_modules\@parcel\transformer-postcss\src\constants.js132951041866890000 0
-38C:\edu\2022\Bar\dist\maps.9abe0f4c.png132957174932492517 0
+38C:\edu\2022\Bar\dist\maps.9abe0f4c.png132957976399317189 0
 46C:\edu\2022\Bar\node_modules\htmlnano\index.js132951040178630000 0
 55C:\edu\2022\Bar\node_modules\yaml\browser\dist\index.js132951041762450000 0
 37C:\edu\2022\Bar\src\img\pixel perfect132957179544553690 1
@@ -288,7 +288,7 @@
 53C:\edu\2022\Bar\node_modules\@swc\helpers\src\_jsx.js132951040465090000 0
 76C:\edu\2022\Bar\node_modules\lmdb\prebuilds\linux-arm64\node.abi88.musl.node132951039398780000 0
 55C:\edu\2022\Bar\node_modules\@parcel\graph\lib\Graph.js132951039897940000 0
-37C:\edu\2022\Bar\dist\img.20130519.png132957174932623477 0
+37C:\edu\2022\Bar\dist\img.20130519.png132957976399386996 0
 46C:\edu\2022\Bar\node_modules\mdn-data\index.js132951041725940000 0
 52C:\edu\2022\Bar\node_modules\lines-and-columns\build132951045956448216 1
 56C:\edu\2022\Bar\node_modules\to-regex-range\package.json132951039366600000 0
@@ -837,7 +837,7 @@
 50C:\edu\2022\Bar\node_modules\yaml\browser\index.js132951041762450000 0
 46C:\edu\2022\Bar\node_modules\csso\lib\index.js132951041557870000 0
 54C:\edu\2022\Bar\node_modules\svgo\plugins\sortAttrs.js132951040185650000 0
-41C:\edu\2022\Bar\dist\coctail.e19ac9e7.jpg132957174931931216 0
+41C:\edu\2022\Bar\dist\coctail.e19ac9e7.jpg132957976398778629 0
 49C:\edu\2022\Bar\node_modules\yaml\browser\pair.js132951041762450000 0
 65C:\edu\2022\Bar\node_modules\css-tree\lib\lexer\generic-urange.js132951041539790000 0
 60C:\edu\2022\Bar\node_modules\css-tree\lib\convertor\index.js132951041539790000 0
@@ -1375,7 +1375,7 @@
 53C:\edu\2022\Bar\node_modules\svgo\lib\svgo\plugins.js132951040185650000 0
 74C:\edu\2022\Bar\node_modules\lmdb\prebuilds\linux-x64\node.abi72.musl.node132951039398780000 0
 51C:\edu\2022\Bar\node_modules\svgo\lib\svgo\tools.js132951040185650000 0
-45C:\edu\2022\Bar\dist\logo-header.9615c9f8.png132957174931841430 0
+45C:\edu\2022\Bar\dist\logo-header.9615c9f8.png132957976398738764 0
 100C:\edu\2022\Bar\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob132951045963380029 1
 60C:\edu\2022\Bar\node_modules\caniuse-lite\data\regions\AW.js132951040374650000 0
 52C:\edu\2022\Bar\node_modules\node-gyp-build\index.js132951039392100000 0
@@ -1415,7 +1415,7 @@
 60C:\edu\2022\Bar\node_modules\source-map-js\lib\base64-vlq.js132951039356110000 0
 75C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\array-find-index.js132951040374650000 0
 80C:\edu\2022\Bar\node_modules\@parcel\source-map\parcel_sourcemap_wasm\Cargo.toml132951039350070000 0
-36C:\edu\2022\Bar\dist\vk.c914a960.png132957174933679490 0
+36C:\edu\2022\Bar\dist\vk.c914a960.png132957976400154946 0
 64C:\edu\2022\Bar\node_modules\@swc\helpers\src\_inherits_loose.js132951040465090000 0
 55C:\edu\2022\Bar\node_modules\sass\types\value\list.d.ts132951039349900000 0
 77C:\edu\2022\Bar\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\LICENSE132951039398780000 0
@@ -1889,7 +1889,7 @@
 37C:\edu\2022\Bar\node_modules\lmdb\src132951045956627736 1
 51C:\edu\2022\Bar\node_modules\mdn-data\l10n\css.json132951041725940000 0
 53C:\edu\2022\Bar\node_modules\@parcel\fs\src\NodeFS.js132951039374680000 0
-43C:\edu\2022\Bar\dist\index.08963856.css.map132957267326310506 0
+43C:\edu\2022\Bar\dist\index.08963856.css.map132957984785757026 0
 81C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\keyboardevent-location.js132951040374650000 0
 58C:\edu\2022\Bar\node_modules\mdn-data\css\definitions.json132951041725940000 0
 64C:\edu\2022\Bar\node_modules\mdn-data\css\properties.schema.json132951041725940000 0
@@ -3356,7 +3356,7 @@
 54C:\edu\2022\Bar\node_modules\@parcel\reporter-cli\test132951045955391173 1
 75C:\edu\2022\Bar\node_modules\@parcel\core\lib\requests\ValidationRequest.js132951039751370000 0
 79C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\spellcheck-attribute.js132951040374650000 0
-31C:\edu\2022\Bar\dist\index.html132957222747110058 0
+31C:\edu\2022\Bar\dist\index.html132957976400354425 0
 65C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\stream.js132951040374650000 0
 62C:\edu\2022\Bar\node_modules\@parcel\packager-css\package.json132951040098060000 0
 82C:\edu\2022\Bar\node_modules\caniuse-lite\data\features\stricttransportsecurity.js132951040374650000 0
@@ -3611,7 +3611,7 @@
 69C:\edu\2022\Bar\node_modules\@swc\helpers\lib\_to_consumable_array.js132951040465090000 0
 62C:\edu\2022\Bar\node_modules\@swc\helpers\lib\_to_primitive.js132951040465090000 0
 57C:\edu\2022\Bar\node_modules\@swc\helpers\lib\_type_of.js132951040465090000 0
-35C:\edu\2022\Bar\dist\6.8fb42c5d.png132957174931971084 0
+35C:\edu\2022\Bar\dist\6.8fb42c5d.png132957976398818862 0
 79C:\edu\2022\Bar\node_modules\@swc\helpers\lib\_unsupported_iterable_to_array.js132951040465090000 0
 70C:\edu\2022\Bar\node_modules\@swc\helpers\lib\_wrap_async_generator.js132951040465090000 0
 88C:\edu\2022\Bar\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\@scope132951045951840675 1
@@ -4396,20 +4396,20 @@
 38C:\edu\2022\Bar\node_modules\.bin\svgo132951045966727409 0
 42C:\edu\2022\Bar\node_modules\.bin\svgo.cmd132951045966727409 0
 44C:\edu\2022\Bar\node_modules\.bin\terser.cmd132951045966767298 0
-35C:\edu\2022\Bar\dist\1.46e4d833.png132957174932462092 0
-35C:\edu\2022\Bar\dist\2.6053d7cb.png132957174933739311 0
-35C:\edu\2022\Bar\dist\3.8073e798.png132957174931971084 0
-35C:\edu\2022\Bar\dist\5.972301a3.png132957174933751100 0
-45C:\edu\2022\Bar\dist\arrow-right.4f0aad95.png132957174932281121 0
-39C:\edu\2022\Bar\dist\arrow.4b761370.png132957174933584613 0
-36C:\edu\2022\Bar\dist\Bar.59712999.js132957174932261073 0
-40C:\edu\2022\Bar\dist\Bar.59712999.js.map132957174932380709 0
-44C:\edu\2022\Bar\dist\bg-gallery.089aefb1.png132957174933679490 0
+35C:\edu\2022\Bar\dist\1.46e4d833.png132957976399287283 0
+35C:\edu\2022\Bar\dist\2.6053d7cb.png132957976400204816 0
+35C:\edu\2022\Bar\dist\3.8073e798.png132957976398818862 0
+35C:\edu\2022\Bar\dist\5.972301a3.png132957976400204816 0
+45C:\edu\2022\Bar\dist\arrow-right.4f0aad95.png132957976399147667 0
+39C:\edu\2022\Bar\dist\arrow.4b761370.png132957976400045244 0
+36C:\edu\2022\Bar\dist\Bar.59712999.js132957976399317189 0
+40C:\edu\2022\Bar\dist\Bar.59712999.js.map132957976399347118 0
+44C:\edu\2022\Bar\dist\bg-gallery.089aefb1.png132957976400154946 0
 43C:\edu\2022\Bar\dist\bg-mobile.f9624001.png132952177556120453 0
-36C:\edu\2022\Bar\dist\bg.97f9e7e8.jpg132957174932580146 0
-40C:\edu\2022\Bar\dist\card-1.b2eeb2ae.png132957174931951135 0
-40C:\edu\2022\Bar\dist\card-2.b5a2ba41.png132957174932270986 0
-39C:\edu\2022\Bar\dist\index.08963856.css132957267326290559 0
-39C:\edu\2022\Bar\dist\insta.cf3c4bad.png132957174931851418 0
+36C:\edu\2022\Bar\dist\bg.97f9e7e8.jpg132957976398938201 0
+40C:\edu\2022\Bar\dist\card-1.b2eeb2ae.png132957976398798571 0
+40C:\edu\2022\Bar\dist\card-2.b5a2ba41.png132957976399207491 0
+39C:\edu\2022\Bar\dist\index.08963856.css132957984785737406 0
+39C:\edu\2022\Bar\dist\insta.cf3c4bad.png132957976398748699 0
 45C:\edu\2022\Bar\dist\logo-header.8f04d3d8.png132951014717826515 0
-38C:\edu\2022\Bar\dist\star.f0695dfc.png132957174933689438 0
+38C:\edu\2022\Bar\dist\star.f0695dfc.png132957976400154946 0

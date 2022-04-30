@@ -63,7 +63,7 @@
     }
 
     &--lg {
-      @include font-subtitle;
+      @include font-subtitle-sm;
       color: $color-white;
       text-align: center;
     }

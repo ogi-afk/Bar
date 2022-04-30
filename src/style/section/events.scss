@@ -117,5 +117,9 @@
     @include media-from(425) {
       text-align: left;
     }
+
+    @include media-from(1440) {
+      padding: 21px 12px 12px 12px;
+    }
   }
 }

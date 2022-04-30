@@ -88,6 +88,8 @@
   }
 
   &__list {
+    margin-bottom: 50px;
+
     @include media-from(768) {
       padding-left: 52px;
       padding-right: 68px;
@@ -109,17 +111,22 @@
   }
 
   &__headline {
-    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+    @include media-from(768) {
+      border-bottom: 1px dashed $color-white;
+    }
   }
 
   &__text {
     @include font-text-menu;
+    margin-top: 10px;
 
     max-width: 170px;
 
-    @include media-from(1024) {
+    @include media-from(768) {
       max-width: 300px;
     }
 
